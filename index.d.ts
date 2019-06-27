@@ -104,6 +104,7 @@ export interface PurchasedItem {
     transactionId: string;
     productId: string;
     originalPurchaseDate?: string; // only Apple
+    originalPurchaseDateMs?: number // only Apple
     purchaseDate: number | string;
     isTrial?: boolean; // only Apple
     cancellationDate?: number; // only Apple/Google
